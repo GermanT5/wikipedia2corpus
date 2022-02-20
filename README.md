@@ -1,4 +1,4 @@
-# Wikipedia 2 Corpus
+# Wikipedia 2 Corpus - this is work in progress
 Tools to extract and clean the Wikipedia texts to transform them into a text corpus for self-supervised NLP model training.
 
 ## Download Data
