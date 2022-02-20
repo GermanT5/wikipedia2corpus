@@ -1,5 +1,5 @@
 # Wikipedia 2 Corpus
-Tools to extract, transform and clean the Wikipedia texts to a text corpus for self-supervised NLP model training.
+Tools to extract and clean the Wikipedia texts to transform them into a text corpus for self-supervised NLP model training.
 
 ## Download Data
 Download the raw Wikipedia dump and store it in the `data` directory:
