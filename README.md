@@ -3,4 +3,7 @@ Tools to extract, transform and clean the Wikipedia texts to a text corpus for s
 
 ## Download Data
 Download the raw Wikipedia dump and store it in the `data` directory:
-- German language: select the youngest directory from https://dumps.wikimedia.org/dewiki/ and download a file called `dewiki-<yyyymmdd>-pages-articles.xml.bz2` its is about 5.8 GB - we use `dewiki-20220201-pages-articles.xml.bz2`
+
+**German language:** Select the youngest directory from https://dumps.wikimedia.org/dewiki/ and download a file called `dewiki-<yyyymmdd>-pages-articles.xml.bz2`. Its is about 5.8 GB in size. We use `dewiki-20220201-pages-articles.xml.bz2`.
+
+**English language:** Select the youngest directory from https://dumps.wikimedia.org/enwiki/ and download a file called `dewiki-<yyyymmdd>-pages-articles.xml.bz2`. Its is about 18.1 GB in size. We use `enwiki-20220201-pages-articles.xml.bz2`.
