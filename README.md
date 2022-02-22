@@ -5,7 +5,7 @@ he texts are split into sentences by using [SoMaJo](https://github.com/tsproisl/
 
 ## Download the German text Corpus
 - size of the corpus (unzipped): 6.1G
-- number of lines: 59475915
+- number of lines: 59,475,915
 - download the single files:
   - [dewiki-20220201-clean-part-01](https://github.com/GermanT5/wikipedia2corpus/releases/download/v1.0/dewiki-20220201-clean-part-01)
   - [dewiki-20220201-clean-part-02](https://github.com/GermanT5/wikipedia2corpus/releases/download/v1.0/dewiki-20220201-clean-part-02)
