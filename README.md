@@ -32,3 +32,10 @@ coming soon...
 
 ## License
 As Wikipedia itself, the text corpus is published under [Creative Commons Attribution-ShareAlike 3.0 Unported license](https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported).
+
+The script is:<br/>
+Copyright (c) 2022 Philip May
+
+Licensed under the **MIT License** (the "License"); you may not use this file except in compliance with the License.
+You may obtain a copy of the License by reviewing the file
+[LICENSE](https://github.com/GermanT5/wikipedia2corpus/blob/main/MIT-LICENSE) in the repository.
