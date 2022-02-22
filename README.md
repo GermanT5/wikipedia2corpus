@@ -12,7 +12,7 @@ Tools to extract and clean the Wikipedia texts to transform them into a text cor
 - check them: `sha256sum dewiki-20220201-clean.zip` should return `09c47abf6200ecc342e04902e360773f9ba2d92abb64bfa20f22c63fd660edcf`
 - unzip the textfile: `unzip -t dewiki-20220201-clean.zip`
 
-## Download Data
+## How you can replicate our work
 Download the raw Wikipedia dump and store it in the `data` directory:
 
 **German language:** Select the youngest directory from https://dumps.wikimedia.org/dewiki/ and download a file called `dewiki-<yyyymmdd>-pages-articles.xml.bz2`. Its is about 5.8 GB in size. We use `dewiki-20220201-pages-articles.xml.bz2`.
@@ -22,4 +22,7 @@ Download the raw Wikipedia dump and store it in the `data` directory:
 ## Extract Data
 - de data: `python -m wikiextractor.WikiExtractor data/dewiki-20220201-pages-articles.xml.bz2 -o data/dewiki-20220201`
 - en data: `python -m wikiextractor.WikiExtractor data/enwiki-20220201-pages-articles.xml.bz2 -o data/enwiki-20220201`
-
+- use the `process_wiki_files.py` script:
+  - edit `INPUT_DIR`, `OUTPUT_DIR` and if needed `LANGUAGE`
+  - run the script
+- concatenate the output in `OUTPUT_DIR` by running `cat <OUTPUT_DIR> > my_clean_wiki_corpus.txt`
