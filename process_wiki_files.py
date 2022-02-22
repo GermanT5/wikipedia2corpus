@@ -5,7 +5,7 @@ from multiprocessing import Pool, cpu_count
 
 # user settings
 INPUT_DIR = "data/dewiki-20220201"
-OUTPUT_DIR = "data/output"
+OUTPUT_DIR = "data/dewiki-20220201-clean"
 LANGUAGE = "de"
 # LANGUAGE = "en"
 
