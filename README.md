@@ -1,7 +1,7 @@
 # Wikipedia 2 Corpus
 Tools to extract and clean the Wikipedia texts to transform them into a text corpus for self-supervised NLP model training.
 
-he texts are split into sentences by using [SoMaJo](https://github.com/tsproisl/SoMaJo). Each line of the text corpus contains one single sentence. Between each Wikipedia article is a blank line.
+The texts are split into sentences by using [SoMaJo](https://github.com/tsproisl/SoMaJo). Each line of the text corpus contains one single sentence. Between each Wikipedia article is a blank line.
 
 ## Download the German text Corpus
 - size of the corpus (unzipped): 6.1G
