@@ -6,10 +6,10 @@ from multiprocessing import Pool, cpu_count
 # user settings
 INPUT_DIR = "data/dewiki-20220201"
 OUTPUT_DIR = "data/dewiki-20220201-clean"
-LANGUAGE = "de"
-# LANGUAGE = "en"
+LANGUAGE = "de_CMC"
+# LANGUAGE = "en_PTB"
 
-tokenizer = SoMaJo(f"{LANGUAGE}_CMC")
+tokenizer = SoMaJo(LANGUAGE)
 html_tag_patten = re.compile('<[^<>]+>')
 
 

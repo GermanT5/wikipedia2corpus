@@ -11,3 +11,8 @@ Download the raw Wikipedia dump and store it in the `data` directory:
 ## Extract Data
 - de data: `python -m wikiextractor.WikiExtractor data/dewiki-20220201-pages-articles.xml.bz2 -o data/dewiki-20220201`
 - en data: `python -m wikiextractor.WikiExtractor data/enwiki-20220201-pages-articles.xml.bz2 -o data/enwiki-20220201`
+
+# Download Data
+- `cat *-dewiki-20220201-clean > dewiki-20220201-clean.zip`
+- `sha256sum dewiki-20220201-clean.zip`: `09c47abf6200ecc342e04902e360773f9ba2d92abb64bfa20f22c63fd660edcf`
+- `unzip -t dewiki-20220201-clean.zip`
