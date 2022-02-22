@@ -20,8 +20,10 @@ Download the raw Wikipedia dump and store it in the `data` directory:
 **English language:** Select the youngest directory from https://dumps.wikimedia.org/enwiki/ and download a file called `dewiki-<yyyymmdd>-pages-articles.xml.bz2`. Its is about 18.1 GB in size. We use `enwiki-20220201-pages-articles.xml.bz2`.
 
 ## Extract Data
-- de data: `python -m wikiextractor.WikiExtractor data/dewiki-20220201-pages-articles.xml.bz2 -o data/dewiki-20220201`
-- en data: `python -m wikiextractor.WikiExtractor data/enwiki-20220201-pages-articles.xml.bz2 -o data/enwiki-20220201`
+- create and activate a new Python environment (for example with conda)
+- install the dependencies: `pip install -r requirements.txt`
+- for de data run: `python -m wikiextractor.WikiExtractor data/dewiki-20220201-pages-articles.xml.bz2 -o data/dewiki-20220201`
+- for en data run: `python -m wikiextractor.WikiExtractor data/enwiki-20220201-pages-articles.xml.bz2 -o data/enwiki-20220201`
 - use the `process_wiki_files.py` script:
   - edit `INPUT_DIR`, `OUTPUT_DIR` and if needed `LANGUAGE`
   - run the script
