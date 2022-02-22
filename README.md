@@ -31,9 +31,11 @@ coming soon...
 - concatenate the output in `OUTPUT_DIR` by running `cat <OUTPUT_DIR> > my_clean_wiki_corpus.txt`
 
 ## License
+
+### The Text Corpus
 As Wikipedia itself, the text corpus is published under [Creative Commons Attribution-ShareAlike 3.0 Unported license](https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported).
 
-The script is:<br/>
+### The Script
 Copyright (c) 2022 Philip May
 
 Licensed under the **MIT License** (the "License"); you may not use this file except in compliance with the License.
