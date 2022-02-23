@@ -15,6 +15,8 @@ We use [WikiExtractor](https://github.com/attardi/wikiextractor) to extract the 
 - unzip the textfile: `unzip -t dewiki-20220201-clean.zip`
 
 ## Download the English text Corpus
+- size of the corpus (unzipped): 14G
+- number of lines: 146,709,087
 - download the single files:
   - [enwiki-20220201-clean-part-00](https://github.com/GermanT5/wikipedia2corpus/releases/download/v1.0/enwiki-20220201-clean-part-00)
   - [enwiki-20220201-clean-part-01](https://github.com/GermanT5/wikipedia2corpus/releases/download/v1.0/enwiki-20220201-clean-part-01)
