@@ -15,7 +15,15 @@ We use [WikiExtractor](https://github.com/attardi/wikiextractor) to extract the 
 - unzip the textfile: `unzip -t dewiki-20220201-clean.zip`
 
 ## Download the English text Corpus
-coming soon...
+- download the single files:
+  - [enwiki-20220201-clean-part-00](https://github.com/GermanT5/wikipedia2corpus/releases/download/v1.0/enwiki-20220201-clean-part-00)
+  - [enwiki-20220201-clean-part-01](https://github.com/GermanT5/wikipedia2corpus/releases/download/v1.0/enwiki-20220201-clean-part-01)
+  - [enwiki-20220201-clean-part-02](https://github.com/GermanT5/wikipedia2corpus/releases/download/v1.0/enwiki-20220201-clean-part-02)
+  - [enwiki-20220201-clean-part-03](https://github.com/GermanT5/wikipedia2corpus/releases/download/v1.0/enwiki-20220201-clean-part-03)
+  - [enwiki-20220201-clean-part-04](https://github.com/GermanT5/wikipedia2corpus/releases/download/v1.0/enwiki-20220201-clean-part-04)
+  - [enwiki-20220201-clean-part-05](https://github.com/GermanT5/wikipedia2corpus/releases/download/v1.0/enwiki-20220201-clean-part-05)
+- combine the parts: `cat enwiki-20220201-clean-part-* > enwiki-20220201-clean.zip`
+- unzip the textfile: `unzip -t enwiki-20220201-clean.zip`
 
 ## How you can replicate our work
 - download the raw Wikipedia dump and store it in the `data` directory:
