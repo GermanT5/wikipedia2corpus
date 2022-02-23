@@ -11,7 +11,7 @@ We use [WikiExtractor](https://github.com/attardi/wikiextractor) to extract the 
   - [dewiki-20220201-clean-part-02](https://github.com/GermanT5/wikipedia2corpus/releases/download/v1.0/dewiki-20220201-clean-part-02)
   - [dewiki-20220201-clean-part-03](https://github.com/GermanT5/wikipedia2corpus/releases/download/v1.0/dewiki-20220201-clean-part-03)
 - combine the parts: `cat dewiki-20220201-clean-part-* > dewiki-20220201-clean.zip`
-- check them: `sha256sum dewiki-20220201-clean.zip` should return `09c47abf6200ecc342e04902e360773f9ba2d92abb64bfa20f22c63fd660edcf`
+- optional check: `sha256sum dewiki-20220201-clean.zip` should return `09c47abf6200ecc342e04902e360773f9ba2d92abb64bfa20f22c63fd660edcf`
 - unzip the textfile: `unzip -t dewiki-20220201-clean.zip`
 
 ## Download the English text Corpus
@@ -23,6 +23,7 @@ We use [WikiExtractor](https://github.com/attardi/wikiextractor) to extract the 
   - [enwiki-20220201-clean-part-04](https://github.com/GermanT5/wikipedia2corpus/releases/download/v1.0/enwiki-20220201-clean-part-04)
   - [enwiki-20220201-clean-part-05](https://github.com/GermanT5/wikipedia2corpus/releases/download/v1.0/enwiki-20220201-clean-part-05)
 - combine the parts: `cat enwiki-20220201-clean-part-* > enwiki-20220201-clean.zip`
+- optional check: `sha256sum enwiki-20220201-clean.zip` should return `127e8645f1bc1944088df165b613333f84cdca6a24eee38b8cd7ac673352293b`
 - unzip the textfile: `unzip -t enwiki-20220201-clean.zip`
 
 ## How you can replicate our work
