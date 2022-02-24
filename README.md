@@ -3,6 +3,9 @@ Tools to extract and clean the Wikipedia texts to transform them into a text cor
 
 We use [WikiExtractor](https://github.com/attardi/wikiextractor) to extract the Wikipedia database dumps. The texts are split into sentences by using [SoMaJo](https://github.com/tsproisl/SoMaJo). Each line of the text corpus contains one single sentence. Between each Wikipedia article is a blank line.
 
+## Remove blank Lines
+If you want to remove the blank lines in the text corpus you can use this command: `sed -i '/^$/d' <filename>`
+
 ## Download the German text Corpus
 - size of the corpus (unzipped): 6.1G
 - number of lines: 59,475,915
